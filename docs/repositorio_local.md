@@ -1,5 +1,7 @@
 # Creación de un Repositorio Local con Git
 
+![GitHub](https://vabadus.es/images/cache/imagen_nodo/images/articulos/5c9deef127c7d783462103.png)
+
 ## Configuración Inicial
 Antes de comenzar, es recomendable configurar tu usuario de Git con los siguientes comandos:
 

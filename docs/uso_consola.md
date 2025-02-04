@@ -1,5 +1,8 @@
 # Uso de la Consola
 
+![Navegación](../images/3.png)
+
+
 ## Navegación entre Directorios
 Para moverte entre directorios, puedes utilizar los siguientes comandos:
 

@@ -1,5 +1,7 @@
 # Creación de un Repositorio Remoto en GitHub y Sincronización con Git
 
+![GitHub](https://cdn.prod.website-files.com/5f5a53e153805db840dae2db/64e79ca5aff2fb7295bfddf9_github-que-es.jpg)
+
 ## Creación del Repositorio Remoto
 1. Accede a [GitHub](https://github.com) e inicia sesión.
 2. Haz clic en el botón **New Repository**.
