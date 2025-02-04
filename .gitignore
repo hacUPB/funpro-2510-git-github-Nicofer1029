@@ -1,0 +1,13 @@
+# Funcion de un archivo .gitignore
+
+Un archivo .gitignore es un archivo de configuración utilizado en proyectos que usan Git como sistema de control de versiones. 
+Su función principal es indicar qué archivos y directorios deben ser ignorados por Git, evitando que se rastreen, agreguen o suban al repositorio.
+
+📌 ¿Para qué sirve un .gitignore?
+
+1. Evitar archivos innecesarios en el repositorio: Como archivos temporales, de configuración local o dependencias que pueden ser regeneradas.
+
+2. Proteger información sensible: Como contraseñas, credenciales de acceso o claves API que no deberían compartirse en un repositorio público.
+
+3. Mejorar la eficiencia del repositorio: Evitando que se suban archivos pesados o generados automáticamente que no son esenciales para el código
+fuente.
