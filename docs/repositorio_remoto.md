@@ -1,8 +1,5 @@
 # Creación de un Repositorio Remoto en GitHub y Sincronización con Git
 
-## Introducción
-Un repositorio remoto permite almacenar el código en plataformas como GitHub, facilitando la colaboración y el control de versiones. En este documento, aprenderás cómo crear un repositorio en GitHub y sincronizarlo con un repositorio local.
-
 ## Creación del Repositorio Remoto
 1. Accede a [GitHub](https://github.com) e inicia sesión.
 2. Haz clic en el botón **New Repository**.
@@ -25,9 +22,9 @@ Si ya tienes un repositorio local creado, sigue estos pasos para vincularlo con 
    ```sh
    git push -u origin main
    ```
-   Si tu rama principal se llama `master`, usa:
+   Como trabajamos en main
    ```sh
-   git push -u origin master
+   git push -u origin main
    ```
 
 ## Clonar un Repositorio Remoto
@@ -41,6 +38,3 @@ Para mantener el repositorio local actualizado con los cambios remotos, usa:
 ```sh
 git pull origin main
 ```
-
-## Conclusión
-Conectar un repositorio local con un remoto permite colaborar con otros desarrolladores y mantener un control de versiones eficiente.
