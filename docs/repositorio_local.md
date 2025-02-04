@@ -1,8 +1,5 @@
 # Creación de un Repositorio Local con Git
 
-## Introducción
-Git es un sistema de control de versiones distribuido que permite gestionar cambios en el código fuente de manera eficiente. En este documento, aprenderás cómo crear y administrar un repositorio local en Git.
-
 ## Configuración Inicial
 Antes de comenzar, es recomendable configurar tu usuario de Git con los siguientes comandos:
 
@@ -17,7 +14,7 @@ git config --global user.email "tuemail@example.com"
 ## Creación de un Repositorio Local
 Para crear un repositorio local, sigue estos pasos:
 
-1. **Navega al directorio donde quieres crear el repositorio:**
+1. **Navega hasta la carpeta donde quieres crear el repositorio:**
    ```sh
    cd ruta/del/proyecto
    ```
@@ -34,7 +31,7 @@ Una vez que tienes el repositorio inicializado, puedes agregar archivos y realiz
    ```sh
    git add nombre_del_archivo
    ```
-   O para agregar todos los archivos:
+   **Añadir todos los archivos al área de preparación**
    ```sh
    git add .
    ```
@@ -54,6 +51,3 @@ Para ver los commits realizados, usa:
 ```sh
 git log
 ```
-
-## Conclusión
-Un repositorio local permite gestionar cambios antes de sincronizarlos con un repositorio remoto. Es una herramienta esencial en el desarrollo de software colaborativo.
