@@ -5,9 +5,7 @@ Id.: 000579043
 
 # Proyecto de Programación con Git y GitHub
 ## Descripción
-Este proyecto tiene como objetivo aplicar y documentar el uso de Git y GitHub en la gestión de proyectos de programación. Se cubren temas como la creación y navegación de 
-directorios desde la consola, la creación de repositorios locales y remotos, y la sincronización entre ellos. Además, se incluye un pequeño programa en C para demostrar la 
-estructura del código fuente dentro del repositorio.
+Este proyecto tiene como objetivo aprender a organizar y manejar las versiones en un proyecto de programacion, en el cual el codigo no es el enfoque principal, sino, la forma de organizar los elementos y desenvolverse con facilidad en Git y Github. Ademas de aprender a sicnronizar los datos con GitHub, desde la consola para poder tranajar localmente y luego tener la infprmacion guardada en la nube.
 
 ## Estructura del Proyecto
 El proyecto se organiza en las siguientes carpetas:
@@ -20,9 +18,9 @@ mi_proyecto/
 │   ├── uso_consola.md
 │   ├── repositorio_local.md
 │   ├── repositorio_remoto.md
-│-- images/           # Imágenes relacionadas con el proyecto
-│-- .gitignore        # Archivo para excluir archivos innecesarios
-│-- README.md         # Descripción del proyecto
+│-- images/           # Imágenes del proyecto
+│-- .gitignore        # Carpeta para excluir archivos innecesarios
+│-- README.md         # Es lo primero que ve el usuario, descripcion general del proyecto
 ```
 
 ## Clonación y Ejecución del Proyecto
@@ -32,21 +30,41 @@ Para obtener una copia local de este proyecto, sigue estos pasos:
    ```sh
    git clone <URL_DEL_REPOSITORIO>
    ```
-2. Navega al directorio del proyecto:
+2. Crear las carpetas docs/ src/ images/
    ```sh
-   cd mi_proyecto
+   mkdir "Nombre de la carpeta"
    ```
-3. Compila y ejecuta el código fuente en C:
+3. En la carpeta docs/ crear archivos md
    ```sh
-   gcc src/main.c -o programa
-   ./programa
+   touch "repositorio_local.md"
+   touch "repositorio_remoto.md"
+   touch "uso_consola.md"
+   ```
+5. En la carpeta src/ crear script con codigo fuente
+   ```sh
+   touch "codigo fuente.c"
+   ```
+6. Crear archivo .gitignore
+   ```sh
+   touch ".gitignore"
+   ```
+6. Crear bitacora README.md
+   ```sh
+   touch "README.md"
+
+6. Hacer 10 commits especificando cada una de las acciones
+   ```sh
+   git commit -m "Nombre de la accion realizada"
    ```
 
-## Tabla de Contenido
-- [Uso de la Consola](docs/uso_consola.md)
-- [Creación de Repositorio Local](docs/repositorio_local.md)
-- [Repositorio Remoto y Sincronización](docs/repositorio_remoto.md)
+6. Sincronizar con Git Hub
+   ```sh
+   git push
+   ```
 
-## Autor
-Este proyecto fue desarrollado como parte de una actividad de aprendizaje sobre Git y GitHub.
-
+## Tabla de contenido
+| Archivos   md     
+|------------
+|- [Uso de la Consola](docs/uso_consola.md)
+|- [Creación de Repositorio Local](docs/repositorio_local.md)
+|- [Repositorio Remoto y Sincronización](docs/repositorio_remoto.md)  
