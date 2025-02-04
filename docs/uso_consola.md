@@ -9,7 +9,7 @@ Para moverte entre directorios, puedes utilizar los siguientes comandos:
   ```
 - **Listar archivos y carpetas en el directorio actual:**
   ```sh
-  ls  # En Linux/macOS
+  ls
   ```
 - **Cambiar de directorio:**
   ```sh
