@@ -24,9 +24,9 @@ Para crear un repositorio local, sigue estos pasos:
    ```sh
    git init
    ```
-   Esto creará un directorio oculto `.git`, donde se almacenará la información del repositorio.
+   Esto creará una carpeta oculta `.git`, donde se almacenará la información del repositorio.
 
-## Añadir y Confirmar Cambios
+## Añadir Cambios
 Una vez que tienes el repositorio inicializado, puedes agregar archivos y realizar commits:
 
 1. **Añadir archivos al área de preparación:**
